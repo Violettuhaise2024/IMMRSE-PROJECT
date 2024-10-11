@@ -13,7 +13,7 @@ detach(package:plotly, unload=TRUE)
 setwd("D:/Computer/IMMRSE/Data-from-pipeline/Drug_resistance/Round3/")
 
 ## import variant table
-var_tab <- read.csv("C:/Users/Thomas Katairo/Box/IMMRSE-U Study/Melissa Drug Resistance Code/variant_table.csv")
+var_tab <- read.csv("C:/Users/Violet/Box/IMMRSE-U Study/Melissa Drug Resistance Code/variant_table.csv")
 var_labs <- subset(var_tab, !is.na(mutation_name), select = -c(no_alleles, AA))
 var_no_alleles <- subset(var_tab, !is.na(no_alleles), select = c(name, mutation_name, no_alleles))
 ##  paragon DR genotype data
@@ -41,7 +41,7 @@ IM_R121 <- read.delim("D:/Computer/IMMRSE/Data-from-pipeline/Results-2024-09-17-
 paragon_df_R3 <- bind_rows(IM_R101, IM_R102, IM_R103, IM_R104, IM_R105, IM_R106, IM_R107, IM_R108, IM_R109, IM_R110, IM_R111, IM_R112, 
                            IM_R113, IM_R114, IM_R116, IM_R117, IM_R118, IM_R119, IM_R120, IM_R121)
 
-metadata <- read.csv("C:/Users/Thomas Katairo/Box/IMMRSE-U Study/UMSP and Travel Survey Databases/qPCR data/R3 Preliminary/qpcr_r3_immrse.csv")
+metadata <- read.csv("C:/Users/Violet/Box/IMMRSE-U Study/UMSP and Travel Survey Databases/qPCR data/R3 Preliminary/qpcr_r3_immrse.csv")
 metadata <- metadata %>% select(StudySubject, Health.facility)
 metadata <- metadata %>% rename(barcode= StudySubject) 
 metadata <- metadata %>% rename(Sample.Site= Health.facility)
