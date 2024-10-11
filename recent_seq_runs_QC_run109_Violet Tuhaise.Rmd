@@ -437,7 +437,7 @@ re_pool
 
 ## Write to csv samples to be reprepped and samples to be repooled
 ```{r csv, echo=T, warning=FALSE}
-write.csv(re_prep, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/failed_qc/failed_QC_run_85_reprep.csv", row.names = FALSE)
+write.csv(re_prep, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/failed_qc/failed_QC_run_85_reprep.csv", row.names = FALSE)
 write.csv(re_pool, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/failed_QC_run_85_repool.csv", row.names = FALSE)
 
 ```
