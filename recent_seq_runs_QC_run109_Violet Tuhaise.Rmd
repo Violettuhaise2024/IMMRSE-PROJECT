@@ -22,11 +22,11 @@ library(dplyr)
 
 ```{r allele data and sample coverage, message = FALSE, echo = FALSE, warning=FALSE}
 
-setwd("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase3/QC/")
+setwd("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase3/QC/")
 rm(list = ls())
 cat("\14")
 
-run109 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-07-25-IM-RUN-109/allele_data.txt",
+run109 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-07-25-IM-RUN-109/allele_data.txt",
                    delim = "\t", escape_double = FALSE, 
                    trim_ws = TRUE) %>% 
   mutate(SampleID = word(SampleID, 1, sep = "_")) %>% 
@@ -36,7 +36,7 @@ run109 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Pha
 
 
 
-run109_dimers <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-07-25-IM-RUN-109/sample_coverage.txt",
+run109_dimers <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-07-25-IM-RUN-109/sample_coverage.txt",
                    delim = "\t", escape_double = FALSE, 
                    trim_ws = TRUE) %>% 
   filter(!grepl("ontrol", SampleID)) %>% 
@@ -56,7 +56,7 @@ run109_dimers <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRS
 ```{r qpcr_run109, echo=FALSE, warning = FALSE, message= FALSE}
 #qpcr 
 
-qpcr <- read_csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase3/Paragon Sample Preparation Master Spreadsheet-Phase-3.csv") %>% 
+qpcr <- read_csv("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase3/Paragon Sample Preparation Master Spreadsheet-Phase-3.csv") %>% 
   rename("SampleID" = "Study Subject")
   
 data <- run109 %>% group_by(SampleID) %>% summarize(reads = sum(Reads))
@@ -128,7 +128,7 @@ ggplot(loci2, aes( y=reads, x=locus)) +
 max(loci2$reads)
 
 
-MadHatter_pools_1B_2_Sheet1 <- read_csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/MadHatter_pools_1B_2 - Sheet1.csv") %>% rename(locus = `locus-pool`) %>%
+MadHatter_pools_1B_2_Sheet1 <- read_csv("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/MadHatter_pools_1B_2 - Sheet1.csv") %>% rename(locus = `locus-pool`) %>%
   dplyr::select(locus, Gene, "Reason to include (if drug resistance: aminoacids)")
 
 loci2 <- loci2 %>% left_join(MadHatter_pools_1B_2_Sheet1) %>% filter(reads >= 100)
@@ -145,7 +145,7 @@ loci2
 ```{r pos_ctrls, echo = FALSE, warning = F, message = F}
 
 
-df <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-07-25-IM-RUN-109/allele_data.txt",
+df <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-07-25-IM-RUN-109/allele_data.txt",
                    delim = "\t", escape_double = FALSE, 
                    trim_ws = TRUE) %>% 
   mutate(SampleID = word(SampleID, 1, sep = "_")) %>% 
@@ -191,7 +191,7 @@ clone_plot
 ```{r pool1A, echo = F, warning = FALSE, message= FALSE}
 
 
-v4_amplicon_info <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/v4_amplicon_info.tsv", 
+v4_amplicon_info <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/v4_amplicon_info.tsv", 
     delim = "\t", escape_double = FALSE, 
     trim_ws = TRUE) %>% rename(locus = amplicon) %>% 
    mutate(pool = gsub("(.*)-(.*)", "\\2", locus))
@@ -275,7 +275,7 @@ bad_1A
 ```{r pool5, echo = F, warning = F, message = F}
 
 
-pool1B_check <- read_csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/MadHatter Pools - Pool1B-Resitance+.csv") %>% 
+pool1B_check <- read_csv("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/MadHatter Pools - Pool1B-Resitance+.csv") %>% 
   filter(pool5 == TRUE)
 
 table(pool1B_check$pool5)
@@ -438,6 +438,6 @@ re_pool
 ## Write to csv samples to be reprepped and samples to be repooled
 ```{r csv, echo=T, warning=FALSE}
 write.csv(re_prep, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/failed_qc/failed_QC_run_85_reprep.csv", row.names = FALSE)
-write.csv(re_pool, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/failed_QC_run_85_repool.csv", row.names = FALSE)
+write.csv(re_pool, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/failed_QC_run_85_repool.csv", row.names = FALSE)
 
 ```
