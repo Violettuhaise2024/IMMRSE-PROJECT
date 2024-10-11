@@ -15,7 +15,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run1 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2023-05-16-IM-RUN-1/Results-2023-05-16-IM-RUN-1/sample_coverage.txt", 
+run1 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2023-05-16-IM-RUN-1/Results-2023-05-16-IM-RUN-1/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -43,7 +43,7 @@ run1_wide_Per_DADA2_QC <- run1_wide %>%
 print(`%age_passing_DADA2_QC`)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide file and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -72,7 +72,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run47 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2023-12-26-IM-RUN-47/Results-2023-12-26-IM-RUN-47/sample_coverage.txt", 
+run47 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2023-12-26-IM-RUN-47/Results-2023-12-26-IM-RUN-47/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -124,7 +124,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run48 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2023-12-28-IM-RUN-48/Results-2023-12-28-IM-RUN-48/sample_coverage.txt", 
+run48 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2023-12-28-IM-RUN-48/Results-2023-12-28-IM-RUN-48/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -178,7 +178,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run49 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2023-12-30-IM-RUN-49/Results-2023-12-30-IM-RUN-49/sample_coverage.txt", 
+run49 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2023-12-30-IM-RUN-49/Results-2023-12-30-IM-RUN-49/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -232,7 +232,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run50 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2023-12-31-IM-RUN-50/Results-2023-12-31-IM-RUN-50/sample_coverage.txt", 
+run50 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2023-12-31-IM-RUN-50/Results-2023-12-31-IM-RUN-50/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -286,7 +286,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run51 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-01-01-IM-RUN-51/Results-2024-01-01-IM-RUN-51/sample_coverage.txt", 
+run51 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-01-01-IM-RUN-51/Results-2024-01-01-IM-RUN-51/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -340,7 +340,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run52 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-01-03-IM-RUN-52/Results-2024-01-03-IM-RUN-52/sample_coverage.txt", 
+run52 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-01-03-IM-RUN-52/Results-2024-01-03-IM-RUN-52/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -392,7 +392,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run57 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-02-12-IM-RUN-57/Results-2024-02-12-IM-RUN-57/sample_coverage.txt", 
+run57 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-02-12-IM-RUN-57/Results-2024-02-12-IM-RUN-57/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -448,7 +448,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run60 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-02-22-IM-RUN-60/Results-2024-02-22-IM-RUN-60/sample_coverage.txt", 
+run60 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-02-22-IM-RUN-60/Results-2024-02-22-IM-RUN-60/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -502,7 +502,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run61 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-03-01-IM-RUN-61/Results-2024-03-01-IM-RUN-61/sample_coverage.txt", 
+run61 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-03-01-IM-RUN-61/Results-2024-03-01-IM-RUN-61/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -556,7 +556,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run62 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-02-28-IM-RUN-62/Results-2024-02-28-IM-RUN-62/sample_coverage.txt", 
+run62 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-02-28-IM-RUN-62/Results-2024-02-28-IM-RUN-62/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -610,7 +610,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run63 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-03-03-IM-RUN-63/Results-2024-03-03-IM-RUN-63/sample_coverage.txt", 
+run63 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-03-03-IM-RUN-63/Results-2024-03-03-IM-RUN-63/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -664,7 +664,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run64 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-03-04-IM-RUN-64/Results-2024-03-04-IM-RUN-64/sample_coverage.txt", 
+run64 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-03-04-IM-RUN-64/Results-2024-03-04-IM-RUN-64/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -718,7 +718,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run65 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-03-11-IM-RUN-65//Results-2024-03-11-IM-RUN-65/sample_coverage.txt", 
+run65 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-03-11-IM-RUN-65//Results-2024-03-11-IM-RUN-65/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -773,7 +773,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run66 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-03-15-IM-RUN-66/Results-2024-03-15-IM-RUN-66/sample_coverage.txt", 
+run66 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-03-15-IM-RUN-66/Results-2024-03-15-IM-RUN-66/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -828,7 +828,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run67 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-03-16-IM-RUN-67/Results-2024-03-16-IM-RUN-67/sample_coverage.txt", 
+run67 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-03-16-IM-RUN-67/Results-2024-03-16-IM-RUN-67/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -882,7 +882,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run68 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-03-18-IM-RUN-68/Results-2024-03-18-IM-RUN-68/sample_coverage.txt", 
+run68 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-03-18-IM-RUN-68/Results-2024-03-18-IM-RUN-68/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -936,7 +936,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run69 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-03-19-IM-RUN-69/Results-2024-03-19-IM-RUN-69/sample_coverage.txt", 
+run69 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-03-19-IM-RUN-69/Results-2024-03-19-IM-RUN-69/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -952,7 +952,7 @@ run69_wide <- run69 %>%
 run69_wide_Per_DADA2_QC <- run69_wide %>% 
   mutate(`%age_passing_DADA2_QC` = run69_wide$OutputPostprocessing/run69_wide$`No Dimers`*100)
 
-write.csv(run69_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_miseq_M08585_Run69.csv", row.names = FALSE)
+write.csv(run69_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Remove controls
 run69_no_controls <- run69_wide %>%
@@ -997,7 +997,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file  
-run70 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-03-15-IM-RUN-70/Results-2024-03-15-IM-RUN-70/sample_coverage.txt", 
+run70 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-03-15-IM-RUN-70/Results-2024-03-15-IM-RUN-70/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -1050,7 +1050,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file  
-run71 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-03-27-IM-RUN-71/Results-2024-03-27-IM-RUN-71/sample_coverage.txt", 
+run71 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-03-27-IM-RUN-71/Results-2024-03-27-IM-RUN-71/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -1105,7 +1105,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file  
-run17 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2023-07-27-AG-IM-RUN-17/Results-2023-07-27-AG-IM-RUN-17/sample_coverage.txt", 
+run17 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2023-07-27-AG-IM-RUN-17/Results-2023-07-27-AG-IM-RUN-17/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -1160,7 +1160,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file  
-run73 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-04-02-IM-RUN-73/Results-2024-04-02-IM-RUN-73/sample_coverage.txt", 
+run73 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-04-02-IM-RUN-73/Results-2024-04-02-IM-RUN-73/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -1214,7 +1214,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file  
-run74 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-04-05-IM-RUN-74/Results-2024-04-05-IM-RUN-74/sample_coverage.txt", 
+run74 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-04-05-IM-RUN-74/Results-2024-04-05-IM-RUN-74/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -1270,7 +1270,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run75 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-04-05-IM-RUN-75/Results-2024-04-05-IM-RUN-75/sample_coverage.txt", 
+run75 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-04-05-IM-RUN-75/Results-2024-04-05-IM-RUN-75/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -1286,7 +1286,7 @@ run75_wide <- run75 %>%
 run75_wide_Per_DADA2_QC <- run75_wide %>% 
   mutate(`%age_passing_DADA2_QC` = run75_wide$OutputPostprocessing/run75_wide$`No Dimers`*100)
 
-write.csv(run69_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_miseq_M08585_Run69.csv", row.names = FALSE)
+write.csv(run69_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Remove controls
 run75_no_controls <- run75_wide %>%
@@ -1330,7 +1330,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run76 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-04-05-IM-RUN-76/Results-2024-04-05-IM-RUN-76/sample_coverage.txt", 
+run76 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-04-05-IM-RUN-76/Results-2024-04-05-IM-RUN-76/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -1346,7 +1346,7 @@ run76_wide <- run76 %>%
 run76_wide_Per_DADA2_QC <- run76_wide %>% 
   mutate(`%age_passing_DADA2_QC` = run76_wide$OutputPostprocessing/run76_wide$`No Dimers`*100)
 
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Remove controls
 run76_no_controls <- run76_wide %>%
@@ -1390,7 +1390,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run78 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-04-08-IM-RUN-78/Results-2024-04-08-IM-RUN-78/sample_coverage.txt", 
+run78 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-04-08-IM-RUN-78/Results-2024-04-08-IM-RUN-78/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -1406,7 +1406,7 @@ run78_wide <- run78 %>%
 run78_wide_Per_DADA2_QC <- run78_wide %>% 
   mutate(`%age_passing_DADA2_QC` = run78_wide$OutputPostprocessing/run78_wide$`No Dimers`*100)
 
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Remove controls
 run78_no_controls <- run78_wide %>%
@@ -1450,7 +1450,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run79 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-04-07-IM-RUN-79/Results-2024-04-07-IM-RUN-79/sample_coverage.txt", 
+run79 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-04-07-IM-RUN-79/Results-2024-04-07-IM-RUN-79/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -1466,7 +1466,7 @@ run79_wide <- run79 %>%
 run79_wide_Per_DADA2_QC <- run79_wide %>% 
   mutate(`%age_passing_DADA2_QC` = OutputPostprocessing/`No Dimers`*100)
 
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Remove controls
 run79_no_controls <- run79_wide %>%
@@ -1510,7 +1510,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run80 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-04-13-IM-RUN-80/Results-2024-04-13-IM-RUN-80/sample_coverage.txt", 
+run80 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-04-13-IM-RUN-80/Results-2024-04-13-IM-RUN-80/sample_coverage.txt", 
                    delim = "\t", escape_double = FALSE, 
                    trim_ws = TRUE)
 
@@ -1538,7 +1538,7 @@ run80_wide_Per_DADA2_QC <- run80_wide %>%
 print(`%age_passing_DADA2_QC`)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -1567,7 +1567,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run81 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-04-16-IM-RUN-81/Results-2024-04-16-IM-RUN-81/sample_coverage.txt", 
+run81 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-04-16-IM-RUN-81/Results-2024-04-16-IM-RUN-81/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -1595,7 +1595,7 @@ run81_wide_Per_DADA2_QC <- run81_wide %>%
 print(`%age_passing_DADA2_QC`)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -1624,7 +1624,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run82 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-04-17-IM-RUN-82/sample_coverage.txt", 
+run82 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-04-17-IM-RUN-82/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -1652,7 +1652,7 @@ run82_wide_Per_DADA2_QC <- run82_wide %>%
 print(`%age_passing_DADA2_QC`)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -1681,7 +1681,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run83 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-04-18-IM-RUN-83/sample_coverage.txt", 
+run83 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-04-18-IM-RUN-83/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -1709,7 +1709,7 @@ run83_wide_Per_DADA2_QC <- run83_wide %>%
 print(`%age_passing_DADA2_QC`)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -1738,7 +1738,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run84 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-04-19-IM-RUN-84/sample_coverage.txt", 
+run84 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-04-19-IM-RUN-84/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -1766,7 +1766,7 @@ run84_wide_Per_DADA2_QC <- run84_wide %>%
 print(`%age_passing_DADA2_QC`)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -1795,7 +1795,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run85 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-04-22-IM-RUN-85/sample_coverage.txt", 
+run85 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-04-22-IM-RUN-85/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -1823,7 +1823,7 @@ run85_wide_Per_DADA2_QC <- run85_wide %>%
 print(`%age_passing_DADA2_QC`)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -1852,7 +1852,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run86 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-04-23-IM-RUN-86/sample_coverage.txt", 
+run86 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-04-23-IM-RUN-86/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -1880,7 +1880,7 @@ run86_wide_Per_DADA2_QC <- run86_wide %>%
 print(`%age_passing_DADA2_QC`)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -1909,7 +1909,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run101 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-05-04-IM-RUN-101/sample_coverage.txt", 
+run101 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-05-04-IM-RUN-101/sample_coverage.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE)
 
@@ -1937,7 +1937,7 @@ run101_wide_Per_DADA2_QC <- run101_wide %>%
 print(`%age_passing_DADA2_QC`)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -1966,7 +1966,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run102 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-06-07-IM-RUN-102/sample_coverage.txt", 
+run102 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-06-07-IM-RUN-102/sample_coverage.txt", 
                      delim = "\t", escape_double = FALSE, 
                      trim_ws = TRUE)
 
@@ -1994,7 +1994,7 @@ run102_wide_Per_DADA2_QC <- run102_wide %>%
 print(`%age_passing_DADA2_QC`)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -2023,7 +2023,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-  run103 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-06-11-IM-RUN-103//sample_coverage.txt", 
+  run103 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-06-11-IM-RUN-103//sample_coverage.txt", 
                      delim = "\t", escape_double = FALSE, 
                      trim_ws = TRUE)
 
@@ -2051,7 +2051,7 @@ run103_wide_Per_DADA2_QC <- run103_wide %>%
 print(`%age_passing_DADA2_QC`)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -2080,7 +2080,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run104 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-06-19-IM-RUN-104/sample_coverage.txt", 
+run104 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-06-19-IM-RUN-104/sample_coverage.txt", 
                      delim = "\t", escape_double = FALSE, 
                      trim_ws = TRUE)
 
@@ -2108,7 +2108,7 @@ run104_wide_Per_DADA2_QC <- run104_wide %>%
 print(`%age_passing_DADA2_QC`)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -2137,7 +2137,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run105 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-06-30-IM-RUN-105/sample_coverage.txt", 
+run105 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-06-30-IM-RUN-105/sample_coverage.txt", 
                      delim = "\t", escape_double = FALSE, 
                      trim_ws = TRUE)
 
@@ -2170,7 +2170,7 @@ filtered_3D7 <- run105_wide %>%
 print(filtered_3D7)
 
 #Checking for 3D7 positive control clonality
-df <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-06-30-IM-RUN-105/allele_data.txt",
+df <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-06-30-IM-RUN-105/allele_data.txt",
                  delim = "\t", escape_double = FALSE, 
                  trim_ws = TRUE) %>% 
   mutate(SampleID = word(SampleID, 1, sep = "_")) %>% 
@@ -2216,7 +2216,7 @@ filtered_Negative_Controls <- run105_wide %>%
 print(filtered_Negative_Controls)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -2245,7 +2245,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run106 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-07-01-IM-RUN-106/sample_coverage.txt", 
+run106 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-07-01-IM-RUN-106/sample_coverage.txt", 
                      delim = "\t", escape_double = FALSE, 
                      trim_ws = TRUE)
 
@@ -2278,7 +2278,7 @@ filtered_3D7 <- run106_wide %>%
 print(filtered_3D7)
 
 #Checking for 3D7 positive control clonality
-df <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-07-01-IM-RUN-106/allele_data.txt",
+df <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-07-01-IM-RUN-106/allele_data.txt",
                  delim = "\t", escape_double = FALSE, 
                  trim_ws = TRUE) %>% 
   mutate(SampleID = word(SampleID, 1, sep = "_")) %>% 
@@ -2324,7 +2324,7 @@ filtered_Negative_Controls <- run106_wide %>%
 print(filtered_Negative_Controls)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -2353,7 +2353,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run107 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-07-16-IM-RUN-107/sample_coverage.txt", 
+run107 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-07-16-IM-RUN-107/sample_coverage.txt", 
                      delim = "\t", escape_double = FALSE, 
                      trim_ws = TRUE)
 
@@ -2386,7 +2386,7 @@ filtered_3D7 <- run107_wide %>%
 print(filtered_3D7)
 
 #Checking for 3D7 positive control clonality
-df <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-07-16-IM-RUN-107/allele_data.txt",
+df <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-07-16-IM-RUN-107/allele_data.txt",
                  delim = "\t", escape_double = FALSE, 
                  trim_ws = TRUE) %>% 
   mutate(SampleID = word(SampleID, 1, sep = "_")) %>% 
@@ -2432,7 +2432,7 @@ filtered_Negative_Controls <- run107_wide %>%
 print(filtered_Negative_Controls)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -2461,7 +2461,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run108 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-07-18-IM-RUN-108/sample_coverage.txt", 
+run108 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-07-18-IM-RUN-108/sample_coverage.txt", 
                      delim = "\t", escape_double = FALSE, 
                      trim_ws = TRUE)
 
@@ -2494,7 +2494,7 @@ filtered_3D7 <- run108_wide %>%
 print(filtered_3D7)
 
 #Checking for 3D7 positive control clonality
-df <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-07-18-IM-RUN-108/allele_data.txt",
+df <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-07-18-IM-RUN-108/allele_data.txt",
                  delim = "\t", escape_double = FALSE, 
                  trim_ws = TRUE) %>% 
   mutate(SampleID = word(SampleID, 1, sep = "_")) %>% 
@@ -2540,7 +2540,7 @@ filtered_Negative_Controls <- run108_wide %>%
 print(filtered_Negative_Controls)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -2569,7 +2569,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-DPSP_001 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/DPSP/DPSP-rawdata/Results-2024-07-27-DPSP-001/sample_coverage.txt", 
+DPSP_001 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/DPSP/DPSP-rawdata/Results-2024-07-27-DPSP-001/sample_coverage.txt", 
                      delim = "\t", escape_double = FALSE, 
                      trim_ws = TRUE)
 
@@ -2602,7 +2602,7 @@ filtered_3D7 <- DPSP_001_wide %>%
 print(filtered_3D7)
 
 #Checking for 3D7 positive control clonality
-df <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/DPSP/DPSP-rawdata/Results-2024-07-27-DPSP-001/allele_data.txt",
+df <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/DPSP/DPSP-rawdata/Results-2024-07-27-DPSP-001/allele_data.txt",
                  delim = "\t", escape_double = FALSE, 
                  trim_ws = TRUE) %>% 
   mutate(SampleID = word(SampleID, 1, sep = "_")) %>% 
@@ -2648,7 +2648,7 @@ filtered_Negative_Controls <- DPSP_001_wide %>%
 print(filtered_Negative_Controls)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -2677,7 +2677,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-DPSP_002 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/DPSP/DPSP-rawdata/Results-2024-07-31-DPSP-002//sample_coverage.txt", 
+DPSP_002 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/DPSP/DPSP-rawdata/Results-2024-07-31-DPSP-002//sample_coverage.txt", 
                        delim = "\t", escape_double = FALSE, 
                        trim_ws = TRUE)
 
@@ -2710,7 +2710,7 @@ filtered_3D7 <- DPSP_002_wide %>%
 print(filtered_3D7)
 
 #Checking for 3D7 positive control clonality
-df <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/DPSP/DPSP-rawdata/Results-2024-07-31-DPSP-002//allele_data.txt",
+df <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/DPSP/DPSP-rawdata/Results-2024-07-31-DPSP-002//allele_data.txt",
                  delim = "\t", escape_double = FALSE, 
                  trim_ws = TRUE) %>% 
   mutate(SampleID = word(SampleID, 1, sep = "_")) %>% 
@@ -2757,7 +2757,7 @@ print(filtered_Negative_Controls)
 
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -2786,7 +2786,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run109 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-07-25-IM-RUN-109/sample_coverage.txt", 
+run109 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-07-25-IM-RUN-109/sample_coverage.txt", 
                      delim = "\t", escape_double = FALSE, 
                      trim_ws = TRUE)
 
@@ -2819,7 +2819,7 @@ filtered_3D7 <- run109_wide %>%
 print(filtered_3D7)
 
 #Checking for 3D7 positive control clonality
-df <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-08-07-IM-RUN-110/allele_data.txt",
+df <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-08-07-IM-RUN-110/allele_data.txt",
                  delim = "\t", escape_double = FALSE, 
                  trim_ws = TRUE) %>% 
   mutate(SampleID = word(SampleID, 1, sep = "_")) %>% 
@@ -2865,7 +2865,7 @@ filtered_Negative_Controls <- run109_wide %>%
 print(filtered_Negative_Controls)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -2894,7 +2894,9 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run110 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-08-07-IM-RUN-110/sample_coverage.txt", 
+run110 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-08-07-IM-RUN-110/sample_coverage.txt", 
+run110 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-08-07-IM-RUN-110/sample_coverage.txt", 
+run110 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-08-07-IM-RUN-110/sample_coverage.txt", 
                      delim = "\t", escape_double = FALSE, 
                      trim_ws = TRUE)
 
@@ -2927,7 +2929,7 @@ filtered_3D7 <- run110_wide %>%
 print(filtered_3D7)
 
 #Checking for 3D7 positive control clonality
-df <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-08-07-IM-RUN-110/allele_data.txt",
+df <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-08-07-IM-RUN-110/allele_data.txt",
                  delim = "\t", escape_double = FALSE, 
                  trim_ws = TRUE) %>% 
   mutate(SampleID = word(SampleID, 1, sep = "_")) %>% 
@@ -2973,7 +2975,7 @@ filtered_Negative_Controls <- run110_wide %>%
 print(filtered_Negative_Controls)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -3002,7 +3004,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run111 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-08-09-IM-RUN-111/sample_coverage.txt", 
+run111 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-08-09-IM-RUN-111/sample_coverage.txt", 
                      delim = "\t", escape_double = FALSE, 
                      trim_ws = TRUE)
 
@@ -3035,7 +3037,7 @@ filtered_3D7 <- run111_wide %>%
 print(filtered_3D7)
 
 #Checking for 3D7 positive control clonality
-df <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-08-09-IM-RUN-111/allele_data.txt",
+df <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-08-09-IM-RUN-111/allele_data.txt",
                  delim = "\t", escape_double = FALSE, 
                  trim_ws = TRUE) %>% 
   mutate(SampleID = word(SampleID, 1, sep = "_")) %>% 
@@ -3081,7 +3083,7 @@ filtered_Negative_Controls <- run111_wide %>%
 print(filtered_Negative_Controls)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -3110,7 +3112,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run112 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-08-12-IM-RUN-112/sample_coverage.txt", 
+run112 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-08-12-IM-RUN-112/sample_coverage.txt", 
                      delim = "\t", escape_double = FALSE, 
                      trim_ws = TRUE)
 
@@ -3143,7 +3145,7 @@ filtered_3D7 <- run112_wide %>%
 print(filtered_3D7)
 
 #Checking for 3D7 positive control clonality
-df <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-08-12-IM-RUN-112//allele_data.txt",
+df <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-08-12-IM-RUN-112//allele_data.txt",
                  delim = "\t", escape_double = FALSE, 
                  trim_ws = TRUE) %>% 
   mutate(SampleID = word(SampleID, 1, sep = "_")) %>% 
@@ -3189,7 +3191,7 @@ filtered_Negative_Controls <- run112_wide %>%
 print(filtered_Negative_Controls)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -3218,7 +3220,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run113 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-08-14-IM-RUN-113/sample_coverage.txt", 
+run113 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-08-14-IM-RUN-113/sample_coverage.txt", 
                      delim = "\t", escape_double = FALSE, 
                      trim_ws = TRUE)
 
@@ -3251,7 +3253,7 @@ filtered_3D7 <- run113_wide %>%
 print(filtered_3D7)
 
 #Checking for 3D7 positive control clonality
-df <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-08-14-IM-RUN-113/allele_data.txt",
+df <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-08-14-IM-RUN-113/allele_data.txt",
                  delim = "\t", escape_double = FALSE, 
                  trim_ws = TRUE) %>% 
   mutate(SampleID = word(SampleID, 1, sep = "_")) %>% 
@@ -3297,7 +3299,7 @@ filtered_Negative_Controls <- run113_wide %>%
 print(filtered_Negative_Controls)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -3326,7 +3328,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run114 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-08-20-IM-RUN-114/sample_coverage.txt", 
+run114 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-08-20-IM-RUN-114/sample_coverage.txt", 
                      delim = "\t", escape_double = FALSE, 
                      trim_ws = TRUE)
 
@@ -3359,7 +3361,7 @@ filtered_3D7 <- run114_wide %>%
 print(filtered_3D7)
 
 #Checking for 3D7 positive control clonality
-df <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-08-20-IM-RUN-114/allele_data.txt",
+df <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-08-20-IM-RUN-114/allele_data.txt",
                  delim = "\t", escape_double = FALSE, 
                  trim_ws = TRUE) %>% 
   mutate(SampleID = word(SampleID, 1, sep = "_")) %>% 
@@ -3405,7 +3407,7 @@ filtered_Negative_Controls <- run114_wide %>%
 head(filtered_Negative_Controls, n = 10)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -3435,7 +3437,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run116 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-09-02-IM-RUN-116/sample_coverage.txt", 
+run116 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-09-02-IM-RUN-116/sample_coverage.txt", 
                      delim = "\t", escape_double = FALSE, 
                      trim_ws = TRUE)
 
@@ -3476,7 +3478,7 @@ filtered_3D7 <- run116_wide %>%
 print(filtered_3D7)
 
 #Checking for 3D7 positive control clonality
-df <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-09-02-IM-RUN-116/allele_data.txt",
+df <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-09-02-IM-RUN-116/allele_data.txt",
                  delim = "\t", escape_double = FALSE, 
                  trim_ws = TRUE) %>% 
   mutate(SampleID = word(SampleID, 1, sep = "_")) %>% 
@@ -3530,7 +3532,7 @@ filtered_Negative_Controls <- run116_wide %>%
 head(filtered_Negative_Controls, n = 10)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -3559,7 +3561,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run117 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-09-09-IM-RUN-117/sample_coverage.txt", 
+run117 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-09-09-IM-RUN-117/sample_coverage.txt", 
                      delim = "\t", escape_double = FALSE, 
                      trim_ws = TRUE)
 
@@ -3592,7 +3594,7 @@ filtered_3D7 <- run117_wide %>%
 print(filtered_3D7)
 
 #Checking for 3D7 positive control clonality
-df <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-09-09-IM-RUN-117/allele_data.txt",
+df <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-09-09-IM-RUN-117/allele_data.txt",
                  delim = "\t", escape_double = FALSE, 
                  trim_ws = TRUE) %>% 
   mutate(SampleID = word(SampleID, 1, sep = "_")) %>% 
@@ -3638,7 +3640,7 @@ filtered_Negative_Controls <- run117_wide %>%
 head(filtered_Negative_Controls, n = 10)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -3666,7 +3668,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run118 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-09-13-IM-RUN-118/sample_coverage.txt", 
+run118 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-09-13-IM-RUN-118/sample_coverage.txt", 
                      delim = "\t", escape_double = FALSE, 
                      trim_ws = TRUE)
 
@@ -3699,7 +3701,8 @@ filtered_3D7 <- run118_wide %>%
 print(filtered_3D7)
 
 #Checking for 3D7 positive control clonality
-df <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-09-13-IM-RUN-118/allele_data.txt",
+df <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-09-13-IM-RUN-118/allele_data.txt",
+df <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-09-13-IM-RUN-118/allele_data.txt",
                  delim = "\t", escape_double = FALSE, 
                  trim_ws = TRUE) %>% 
   mutate(SampleID = word(SampleID, 1, sep = "_")) %>% 
@@ -3745,7 +3748,7 @@ filtered_Negative_Controls <- run118_wide %>%
 head(filtered_Negative_Controls, n = 10)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -3774,7 +3777,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run119 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-09-14-IM-RUN-119/sample_coverage.txt", 
+run119 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-09-14-IM-RUN-119/sample_coverage.txt", 
                      delim = "\t", escape_double = FALSE, 
                      trim_ws = TRUE)
 
@@ -3807,7 +3810,7 @@ filtered_3D7 <- run119_wide %>%
 print(filtered_3D7)
 
 #Checking for 3D7 positive control clonality
-df <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-09-14-IM-RUN-119/allele_data.txt",
+df <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-09-14-IM-RUN-119/allele_data.txt",
                  delim = "\t", escape_double = FALSE, 
                  trim_ws = TRUE) %>% 
   mutate(SampleID = word(SampleID, 1, sep = "_")) %>% 
@@ -3853,7 +3856,7 @@ filtered_Negative_Controls <- run119_wide %>%
 head(filtered_Negative_Controls, n = 10)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -3882,7 +3885,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run120 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-09-16-IM-RUN-120/sample_coverage.txt", 
+run120 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-09-16-IM-RUN-120/sample_coverage.txt", 
                      delim = "\t", escape_double = FALSE, 
                      trim_ws = TRUE)
 
@@ -3915,7 +3918,7 @@ filtered_3D7 <- run120_wide %>%
 print(filtered_3D7)
 
 #Checking for 3D7 positive control clonality
-df <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-09-16-IM-RUN-120/allele_data.txt",
+df <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-09-16-IM-RUN-120/allele_data.txt",
                  delim = "\t", escape_double = FALSE, 
                  trim_ws = TRUE) %>% 
   mutate(SampleID = word(SampleID, 1, sep = "_")) %>% 
@@ -3961,7 +3964,7 @@ filtered_Negative_Controls <- run120_wide %>%
 head(filtered_Negative_Controls, n = 10)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -3990,7 +3993,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-run121 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-09-17-IM-RUN-121/sample_coverage.txt", 
+run121 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-09-17-IM-RUN-121/sample_coverage.txt", 
                      delim = "\t", escape_double = FALSE, 
                      trim_ws = TRUE)
 
@@ -4023,7 +4026,7 @@ filtered_3D7 <- run121_wide %>%
 print(filtered_3D7)
 
 #Checking for 3D7 positive control clonality
-df <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-09-17-IM-RUN-121/allele_data.txt",
+df <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-09-17-IM-RUN-121/allele_data.txt",
                  delim = "\t", escape_double = FALSE, 
                  trim_ws = TRUE) %>% 
   mutate(SampleID = word(SampleID, 1, sep = "_")) %>% 
@@ -4069,7 +4072,7 @@ filtered_Negative_Controls <- run121_wide %>%
 head(filtered_Negative_Controls, n = 10)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -4098,7 +4101,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-smaart001 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/SMAART/SMAART_raw data/Results-2024-09-10-SMAART-RUN-001/sample_coverage.txt", 
+smaart001 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/SMAART/SMAART_raw data/Results-2024-09-10-SMAART-RUN-001/sample_coverage.txt", 
                      delim = "\t", escape_double = FALSE, 
                      trim_ws = TRUE)
 
@@ -4131,7 +4134,7 @@ filtered_3D7 <- smaart001_wide %>%
 print(filtered_3D7)
 
 #Checking for 3D7 positive control clonality
-df <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/SMAART/SMAART_raw data/Results-2024-09-10-SMAART-RUN-001/allele_data.txt",
+df <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/SMAART/SMAART_raw data/Results-2024-09-10-SMAART-RUN-001/allele_data.txt",
                  delim = "\t", escape_double = FALSE, 
                  trim_ws = TRUE) %>% 
   mutate(SampleID = word(SampleID, 1, sep = "_")) %>% 
@@ -4177,7 +4180,7 @@ filtered_Negative_Controls <- smaart001_wide %>%
 head(filtered_Negative_Controls, n = 20)
 
 # Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -4206,7 +4209,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-smaart002 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/SMAART/SMAART_raw data/Results-2024-08-28-SMAART-RUN-002/sample_coverage.txt", 
+smaart002 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/SMAART/SMAART_raw data/Results-2024-08-28-SMAART-RUN-002/sample_coverage.txt", 
                         delim = "\t", escape_double = FALSE, 
                         trim_ws = TRUE)
 
@@ -4239,7 +4242,7 @@ filtered_3D7 <- smaart002_wide %>%
 print(filtered_3D7)
 
 #Checking for 3D7 positive control clonality
-df <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/SMAART/SMAART_raw data/Results-2024-08-28-SMAART-RUN-002/allele_data.txt",
+df <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/SMAART/SMAART_raw data/Results-2024-08-28-SMAART-RUN-002/allele_data.txt",
                  delim = "\t", escape_double = FALSE, 
                  trim_ws = TRUE) %>% 
   mutate(SampleID = word(SampleID, 1, sep = "_")) %>% 
@@ -4285,7 +4288,7 @@ filtered_Negative_Controls <- smaart002_wide %>%
 head(filtered_Negative_Controls, n = 20)
 
 #Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -4314,7 +4317,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-smaart003 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/SMAART/SMAART_raw data/Results-2024-09-06-SMAART-RUN-003/sample_coverage.txt", 
+smaart003 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/SMAART/SMAART_raw data/Results-2024-09-06-SMAART-RUN-003/sample_coverage.txt", 
                         delim = "\t", escape_double = FALSE, 
                         trim_ws = TRUE)
 
@@ -4347,7 +4350,7 @@ filtered_3D7 <- smaart003_wide %>%
 print(filtered_3D7)
 
 #Checking for 3D7 positive control clonality
-df <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/SMAART/SMAART_raw data/Results-2024-09-06-SMAART-RUN-003/allele_data.txt",
+df <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/SMAART/SMAART_raw data/Results-2024-09-06-SMAART-RUN-003/allele_data.txt",
                  delim = "\t", escape_double = FALSE, 
                  trim_ws = TRUE) %>% 
   mutate(SampleID = word(SampleID, 1, sep = "_")) %>% 
@@ -4393,7 +4396,7 @@ filtered_Negative_Controls <- smaart003_wide %>%
 head(filtered_Negative_Controls, n = 20)
 
 #Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -4422,7 +4425,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-smaart006 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/SMAART/SMAART_raw data/Results-2024-09-12-SMAART-RUN-006/sample_coverage.txt", 
+smaart006 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/SMAART/SMAART_raw data/Results-2024-09-12-SMAART-RUN-006/sample_coverage.txt", 
                         delim = "\t", escape_double = FALSE, 
                         trim_ws = TRUE)
 
@@ -4455,7 +4458,7 @@ filtered_3D7 <- smaart006_wide %>%
 print(filtered_3D7)
 
 #Checking for 3D7 positive control clonality
-df <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/SMAART/SMAART_raw data/Results-2024-09-12-SMAART-RUN-006/allele_data.txt",
+df <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/SMAART/SMAART_raw data/Results-2024-09-12-SMAART-RUN-006/allele_data.txt",
                  delim = "\t", escape_double = FALSE, 
                  trim_ws = TRUE) %>% 
   mutate(SampleID = word(SampleID, 1, sep = "_")) %>% 
@@ -4501,7 +4504,7 @@ filtered_Negative_Controls <- smaart006_wide %>%
 head(filtered_Negative_Controls, n = 20)
 
 #Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -4530,7 +4533,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-smaart007 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/SMAART/SMAART_raw data/Results-2024-09-20-SMAART-RUN-007/sample_coverage.txt", 
+smaart007 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/SMAART/SMAART_raw data/Results-2024-09-20-SMAART-RUN-007/sample_coverage.txt", 
                         delim = "\t", escape_double = FALSE, 
                         trim_ws = TRUE)
 
@@ -4563,7 +4566,7 @@ filtered_3D7 <- smaart007_wide %>%
 print(filtered_3D7)
 
 #Checking for 3D7 positive control clonality
-df <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/SMAART/SMAART_raw data/Results-2024-09-20-SMAART-RUN-007/allele_data.txt",
+df <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/SMAART/SMAART_raw data/Results-2024-09-20-SMAART-RUN-007/allele_data.txt",
                  delim = "\t", escape_double = FALSE, 
                  trim_ws = TRUE) %>% 
   mutate(SampleID = word(SampleID, 1, sep = "_")) %>% 
@@ -4609,7 +4612,7 @@ filtered_Negative_Controls <- smaart007_wide %>%
 head(filtered_Negative_Controls, n = 20)
 
 #Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
@@ -4638,7 +4641,7 @@ cat("\14")
 library(tidyverse)
 
 # Read the sample coverage text file
-smaart008 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/SMAART/SMAART_raw data/Results-2024-09-21-SMAART-RUN-008/sample_coverage.txt", 
+smaart008 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/SMAART/SMAART_raw data/Results-2024-09-21-SMAART-RUN-008/sample_coverage.txt", 
                         delim = "\t", escape_double = FALSE, 
                         trim_ws = TRUE)
 
@@ -4671,7 +4674,7 @@ filtered_3D7 <- smaart008_wide %>%
 print(filtered_3D7)
 
 #Checking for 3D7 positive control clonality
-df <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/SMAART/SMAART_raw data/Results-2024-09-21-SMAART-RUN-008/allele_data.txt",
+df <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/SMAART/SMAART_raw data/Results-2024-09-21-SMAART-RUN-008/allele_data.txt",
                  delim = "\t", escape_double = FALSE, 
                  trim_ws = TRUE) %>% 
   mutate(SampleID = word(SampleID, 1, sep = "_")) %>% 
@@ -4717,7 +4720,7 @@ filtered_Negative_Controls <- smaart008_wide %>%
 head(filtered_Negative_Controls, n = 20)
 
 #Write the CSV including variable `%age_passing_DADA2_QC` if it seems unusual for discussion with colleagues
-# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
+# write.csv(run76_wide_Per_DADA2_QC, "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Good_Miseq_M08585_Run69.csv", row.names = FALSE)
 
 # Read through the run_wide dataframe and record in your post sequencing records log the OutputPostprocessing reads for each positive and negative controls
 
