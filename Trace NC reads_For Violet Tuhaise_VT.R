@@ -7,14 +7,14 @@ library(tidyverse)
 library(dplyr)
 
 #need to pull in the sample sheet for run 52 so we have well positions
-sample_sheet_Run52 <- read_csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Samplesheet_Run_52_Samplesheet_Run_52.csv.csv")
+sample_sheet_Run52 <- read_csv("C:/Users/USER/OneDrive/Desktop/Thomas Katairo Files/IMMRSE-U/Phase2/QC/Samplesheet_Run_52_Samplesheet_Run_52.csv.csv")
 sample_sheet_Run52$sampleID <- sample_sheet_Run52$SampleID
 sample_sheet_Run52 <- sample_sheet_Run52 %>% select(-sampleID)
 start_row <- 97
 sample_sheet_Run52 <- sample_sheet_Run52[-(start_row:nrow(sample_sheet_Run52)), ]
 
 #pull in run52 data 
-run52 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-01-03-IM-RUN-52/Results-2024-01-03-IM-RUN-52/allele_data.txt", 
+run52 <- read_delim("C:/Users/USER/OneDrive/Desktop/Thomas Katairo Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-01-03-IM-RUN-52/Results-2024-01-03-IM-RUN-52/allele_data.txt", 
                           delim = "\t", escape_double = FALSE, 
                           trim_ws = TRUE) %>% 
   mutate(sampleID = word(sampleID, 1, sep = "_")) 
@@ -101,14 +101,14 @@ library(dplyr)
 library(ggplot2)
 
 #need to pull in the sample sheet for run 55 so we have well positions
-sample_sheet_Run55 <- read_csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/QC/Samplesheet-Run-55.csv")
+sample_sheet_Run55 <- read_csv("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/QC/Samplesheet-Run-55.csv")
 sample_sheet_Run55$sampleID <- sample_sheet_Run55$Sample_ID
 sample_sheet_Run55 <- sample_sheet_Run55 %>% select(-Sample_ID)
 start_row <- 97
 sample_sheet_Run55 <- sample_sheet_Run55[(start_row:nrow(sample_sheet_Run55)), ]
 
 #pull in run52 data 
-run55 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-02-02-IM-RUN-55/Results-2024-02-02-IM-RUN-55/allele_data.txt", 
+run55 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2024-02-02-IM-RUN-55/Results-2024-02-02-IM-RUN-55/allele_data.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE) %>% 
   mutate(sampleID = word(sampleID, 1, sep = "_")) 
@@ -195,12 +195,12 @@ library(dplyr)
 library(ggplot2)
 
 #need to pull in the sample sheet for run 55 so we have well positions
-sample_sheet_Run17 <- read_csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/R_codes/QC/Run17_SampleSheet.csv")
+sample_sheet_Run17 <- read_csv("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/R_codes/QC/Run17_SampleSheet.csv")
 sample_sheet_Run17$sampleID <- sample_sheet_Run17$`Sample-ID`
 sample_sheet_Run17 <- sample_sheet_Run17 %>% select(-`Sample-ID`)
 
 #pull in run52 data 
-run17 <- read_delim("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2023-07-27-AG-IM-RUN-17/Results-2023-07-27-AG-IM-RUN-17/allele_data.txt", 
+run17 <- read_delim("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/IMMRSE-U raw data/Results-2023-07-27-AG-IM-RUN-17/Results-2023-07-27-AG-IM-RUN-17/allele_data.txt", 
                     delim = "\t", escape_double = FALSE, 
                     trim_ws = TRUE) %>% 
   mutate(sampleID = word(sampleID, 1, sep = "_")) 
