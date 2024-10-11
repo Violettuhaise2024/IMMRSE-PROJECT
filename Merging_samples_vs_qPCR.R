@@ -1,4 +1,4 @@
-setwd("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase1/Pooling/")
+setwd("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase1/Pooling/")
 
 # library(dplyr)
 library(dplyr)
@@ -86,8 +86,8 @@ library(writexl)
 library(readxl)
 
 #Read through the files to merge
-qPCR <- read.csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/Pooling/Paragon Sample Preparation Master Spreadsheet-Phase-2 - Samples to be prepped_ 2nd round.csv")
-Run_B7 <- read.csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/Pooling/IM-24-101.csv")
+qPCR <- read.csv("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/Pooling/Paragon Sample Preparation Master Spreadsheet-Phase-2 - Samples to be prepped_ 2nd round.csv")
+Run_B7 <- read.csv("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/Pooling/IM-24-101.csv")
 
 #Merge the two files, the plate sample list and qPCR file
 Run_B7.qPCR_merged <- Run_B7 %>% 
@@ -105,7 +105,7 @@ Run_B7_Set_F_Merged <- Run_B7.qPCR_merged %>%
     TRUE ~ 6))
 
 #Save the merged file with the volumes to pool
-write.csv(Run_B7_Set_F_Merged, file = "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/Pooling/2024-01-08-Run-B7-Set_F-Merged.csv")
+write.csv(Run_B7_Set_F_Merged, file = "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/Pooling/2024-01-08-Run-B7-Set_F-Merged.csv")
 
 # Fri Jan 12 10:20:43 2024 ------------------------------
 #Clear the environment and the console
@@ -118,8 +118,8 @@ library(writexl)
 library(readxl)
 
 #Read through the files to merge
-qPCR <- read.csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/Pooling/Paragon Sample Preparation Master Spreadsheet-Phase-2 - Samples to be prepped_ 2nd round.csv")
-Run_B9 <- read.csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/Pooling/IM-24-103.csv")
+qPCR <- read.csv("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/Pooling/Paragon Sample Preparation Master Spreadsheet-Phase-2 - Samples to be prepped_ 2nd round.csv")
+Run_B9 <- read.csv("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/Pooling/IM-24-103.csv")
 
 #Merge the two files, the plate sample list and qPCR file
 Run_B9.qPCR_merged <- Run_B9 %>% 
@@ -137,7 +137,7 @@ Run_B9_Set_D_Merged <- Run_B9.qPCR_merged %>%
     TRUE ~ 6))
 
 #Save the merged file with the volumes to pool
-write.csv(Run_B9_Set_D_Merged, file = "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/Pooling/2024-01-11-Run-B9-Set_D-Merged.csv", na = "")
+write.csv(Run_B9_Set_D_Merged, file = "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/Pooling/2024-01-11-Run-B9-Set_D-Merged.csv", na = "")
 
 # Thu Jan 18 16:40:46 2024 ------------------------------
 
@@ -151,8 +151,8 @@ library(writexl)
 library(readxl)
 
 #Read through the files to merge
-qPCR <- read.csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/Pooling/Paragon Sample Preparation Master Spreadsheet-Phase-2 - Samples to be prepped_ 2nd round.csv")
-Run_B12 <- read.csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/Pooling/IM-24-105.csv")
+qPCR <- read.csv("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/Pooling/Paragon Sample Preparation Master Spreadsheet-Phase-2 - Samples to be prepped_ 2nd round.csv")
+Run_B12 <- read.csv("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/Pooling/IM-24-105.csv")
 
 #Merge the two files, the plate sample list and qPCR file
 Run_B12.qPCR_merged <- Run_B12 %>% 
@@ -170,7 +170,7 @@ Run_B12_Set_C_Merged <- Run_B12.qPCR_merged %>%
     TRUE ~ 6))
 
 #Save the merged file with the volumes to pool
-write.csv(Run_B12_Set_C_Merged, file = "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/Pooling/2024-01-18-Run-B12-Set_C-Merged.csv", na = "")
+write.csv(Run_B12_Set_C_Merged, file = "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/Pooling/2024-01-18-Run-B12-Set_C-Merged.csv", na = "")
 
 # Mon Jan 22 09:14:57 2024 ------------------------------
 
@@ -184,8 +184,8 @@ library(writexl)
 library(readxl)
 
 #Read through the files to merge
-qPCR <- read.csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/Pooling/Paragon Sample Preparation Master Spreadsheet-Phase-2 - Samples to be prepped_ 2nd round.csv")
-Run_B14 <- read.csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/Pooling/IM-24-108.csv")
+qPCR <- read.csv("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/Pooling/Paragon Sample Preparation Master Spreadsheet-Phase-2 - Samples to be prepped_ 2nd round.csv")
+Run_B14 <- read.csv("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/Pooling/IM-24-108.csv")
 
 #Merge the two files, the plate sample list and qPCR file
 Run_B14.qPCR_merged <- Run_B14 %>% 
@@ -203,7 +203,7 @@ Run_B14_Set_E_Merged <- Run_B14.qPCR_merged %>%
     TRUE ~ 6))
 
 #Save the merged file with the volumes to pool
-write.csv(Run_B14_Set_E_Merged, file = "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/Pooling/2024-01-20-Run-B14-Set_E-Merged.csv", na = "")
+write.csv(Run_B14_Set_E_Merged, file = "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/Pooling/2024-01-20-Run-B14-Set_E-Merged.csv", na = "")
 
 # Wed Mar  6 22:37:00 2024 ------------------------------
 #Clear the environment and the console
@@ -216,9 +216,9 @@ library(writexl)
 library(readxl)
 
 #Read through the files to merge
-qPCR <- read.csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/Pooling/Paragon Sample Preparation Master Spreadsheet-Phase-2 - Samples to be prepped_ 2nd round.csv") %>% 
+qPCR <- read.csv("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/Pooling/Paragon Sample Preparation Master Spreadsheet-Phase-2 - Samples to be prepped_ 2nd round.csv") %>% 
   rename("StudySubject" = "Study.Subject") %>% select(-"X", -"site", -"Prepped.")
-Run_B24 <- read.csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/Pooling/IM-24-115.csv") %>% 
+Run_B24 <- read.csv("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/Pooling/IM-24-115.csv") %>% 
   select("Position", "Barcode", "StudySubject", "PlateName")
 
 #Merge the two files, the plate sample list and qPCR file
@@ -237,7 +237,7 @@ Run_B24_Set_C_Merged <- Run_B24.qPCR_merged %>%
     TRUE ~ 6))
 
 #Save the merged file with the volumes to pool
-write.csv(Run_B24_Set_C_Merged, file = "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/Pooling/2024-03-01-Run-B24-Set_C-Merged.csv", na = "", row.names = TRUE)
+write.csv(Run_B24_Set_C_Merged, file = "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/Pooling/2024-03-01-Run-B24-Set_C-Merged.csv", na = "", row.names = TRUE)
 
 # Thu Mar 14 15:27:31 2024 ------------------------------
 #Clear the environment and the console
@@ -250,9 +250,9 @@ library(writexl)
 library(readxl)
 
 #Read through the files to merge
-qPCR <- read.csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/Pooling/Paragon Sample Preparation Master Spreadsheet-Phase-2 - Samples to be prepped_ 2nd round.csv") %>% 
+qPCR <- read.csv("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/Pooling/Paragon Sample Preparation Master Spreadsheet-Phase-2 - Samples to be prepped_ 2nd round.csv") %>% 
   rename("StudySubject" = "Study.Subject") %>% select(-"X", -"site", -"Prepped.")
-Run_B28 <- read.csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/Pooling/IM-24-119.csv") %>% 
+Run_B28 <- read.csv("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/Pooling/IM-24-119.csv") %>% 
   select("Position", "Barcode", "StudySubject", "PlateName")
 
 #Merge the two files, the plate sample list and qPCR file
@@ -271,7 +271,7 @@ Run_B28_Set_C_Merged <- Run_B28.qPCR_merged %>%
     TRUE ~ 6))
 
 #Save the merged file with the volumes to pool
-write.csv(Run_B28_Set_C_Merged, file = "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/Pooling/2024-03-14-Run-B28-Set_C-Merged.csv", na = "", row.names = TRUE)
+write.csv(Run_B28_Set_C_Merged, file = "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/Pooling/2024-03-14-Run-B28-Set_C-Merged.csv", na = "", row.names = TRUE)
 
 
 # Tue Mar 26 09:13:01 2024 ------------------------------
@@ -285,9 +285,9 @@ library(writexl)
 library(readxl)
 
 #Read through the files to merge
-qPCR <- read.csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/Pooling/Paragon Sample Preparation Master Spreadsheet-Phase-2 - Samples to be prepped_ 2nd round.csv") %>% 
+qPCR <- read.csv("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/Pooling/Paragon Sample Preparation Master Spreadsheet-Phase-2 - Samples to be prepped_ 2nd round.csv") %>% 
   rename("StudySubject" = "Study.Subject") %>% select(-"X", -"site", -"Prepped.")
-Run_B33 <- read.csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/Pooling/IM-24-124.csv") %>% 
+Run_B33 <- read.csv("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/Pooling/IM-24-124.csv") %>% 
   rename("Barcode" = "Tube.ID") %>% select("Position", "Barcode", "StudySubject", "PlateName")
 
 #Merge the two files, the plate sample list and qPCR file
@@ -306,7 +306,7 @@ Run_B33_Set_C_Merged <- Run_B33.qPCR_merged %>%
     TRUE ~ 6))
 
 #Save the merged file with the volumes to pool
-write.csv(Run_B33_Set_C_Merged, file = "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/Pooling/2024-03-14-Run-B33-Set_C-Merged.csv", na = "", row.names = TRUE)
+write.csv(Run_B33_Set_C_Merged, file = "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/Pooling/2024-03-14-Run-B33-Set_C-Merged.csv", na = "", row.names = TRUE)
 
 # Fri May  3 08:28:27 2024 ------------------------------
 #Clear the environment and the console
@@ -319,9 +319,9 @@ library(writexl)
 library(readxl)
 
 #Read through the files to merge
-qPCR <- read.csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase3/Library-prep/Paragon Sample Preparation Master Spreadsheet-Phase-3 - Samples to be prepped_ 3rd round.csv") %>% 
+qPCR <- read.csv("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase3/Library-prep/Paragon Sample Preparation Master Spreadsheet-Phase-3 - Samples to be prepped_ 3rd round.csv") %>% 
   rename("StudySubject" = "Study.Subject") %>% select(-"site", -"Prepped.")
-Plate_C01 <- read.csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase3/Library-prep/IM-24-131.csv") %>% 
+Plate_C01 <- read.csv("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase3/Library-prep/IM-24-131.csv") %>% 
   rename("Barcode" = "Tube.ID") %>% select("Position", "Barcode", "StudySubject", "PlateName")
 
 #Merge the two files, the plate sample list and qPCR file
@@ -340,7 +340,7 @@ Plate_C01_Set_C_Merged <- Plate_CO1.qPCR_merged %>%
     TRUE ~ 6))
 
 #Save the merged file with the volumes to pool
-write.csv(Plate_C01_Set_C_Merged, file = "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase3/Library-prep/2024-05-02-Plate-C02-Set_C-Merged.csv", na = "", row.names = TRUE)
+write.csv(Plate_C01_Set_C_Merged, file = "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase3/Library-prep/2024-05-02-Plate-C02-Set_C-Merged.csv", na = "", row.names = TRUE)
 
 # Mon May 13 14:00:44 2024 ------------------------------
 #Clear the environment and the console
@@ -353,10 +353,10 @@ library(writexl)
 library(readxl)
 
 #Read through the files to merge
-qPCR <- read.csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/Reprep_samples_Jessica.csv") %>% 
+qPCR <- read.csv("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/Reprep_samples_Jessica.csv") %>% 
   rename("StudySubject" = "sampleID", "Quantity" = "Parasitemia.by.qPCR") %>% select(-"Sample.Site")
 qPCR$Barcode <- as.character(qPCR$Barcode)
-Plate_B41 <- read.csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/2024-05-07-Run-B41-Set-E.csv") %>% 
+Plate_B41 <- read.csv("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/2024-05-07-Run-B41-Set-E.csv") %>% 
   rename("Barcode" = "Tube.ID") %>% select("Position", "Barcode", "StudySubject", "PlateName")
 
 #Merge the two files, the plate sample list and qPCR file
@@ -375,7 +375,7 @@ Plate_B41_Set_E_Merged <- Plate_B41.qPCR_merged %>%
     TRUE ~ 6))
 
 #Save the merged file with the volumes to pool
-write.csv(Plate_B41_Set_E_Merged, file = "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/2024-05-07-Plate-B41-Set_E-Merged.csv", na = "", row.names = TRUE)
+write.csv(Plate_B41_Set_E_Merged, file = "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/2024-05-07-Plate-B41-Set_E-Merged.csv", na = "", row.names = TRUE)
 
 # Fri May 17 10:06:57 2024 ------------------------------
 #Clear the environment and the console
@@ -388,7 +388,7 @@ library(writexl)
 library(readxl)
 
 #Read through the files to merge
-qPCR <- read.csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/Pooling/Paragon Sample Preparation Master Spreadsheet-Phase-2 - Samples to be prepped_ 2nd round.csv") %>% 
+qPCR <- read.csv("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/Pooling/Paragon Sample Preparation Master Spreadsheet-Phase-2 - Samples to be prepped_ 2nd round.csv") %>% 
   rename("StudySubject" = "Study.Subject") %>% select(-"X", -"site", -"Prepped.")
 Plate_B42 <- read.csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/Pooling/IM-24-134.csv") %>% 
   rename("Barcode" = "Tube.ID") %>% select("Position", "Barcode", "StudySubject", "PlateName")
@@ -409,7 +409,7 @@ Plate_B42_Set_F_Merged <- Plate_B42.qPCR_merged %>%
     TRUE ~ 6 ))
 
 #Save the merged file with the volumes to pool
-write.csv(Plate_B42_Set_F_Merged, file = "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase2/2024-05-15-Plate-B42-Set_F-Merged.csv", na = "", row.names = TRUE)
+write.csv(Plate_B42_Set_F_Merged, file = "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase2/2024-05-15-Plate-B42-Set_F-Merged.csv", na = "", row.names = TRUE)
 
 # Mon Aug  5 14:45:11 2024 ------------------------------
 #Clear the environment and the console
@@ -422,9 +422,9 @@ library(writexl)
 library(readxl)
 
 #Read through the files to merge
-qPCR <- read.csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase3/Library-prep/Paragon Sample Preparation Master Spreadsheet-Phase-3 - Samples to be prepped_ 3rd round.csv") %>% 
+qPCR <- read.csv("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase3/Library-prep/Paragon Sample Preparation Master Spreadsheet-Phase-3 - Samples to be prepped_ 3rd round.csv") %>% 
   rename("StudySubject" = "Study.Subject") %>% select(-"site", -"Prepped.")
-Plate_C15_C16Upper <- read.csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase3/Library-prep/Plate_C15_C16Upper.csv") %>% 
+Plate_C15_C16Upper <- read.csv("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase3/Library-prep/Plate_C15_C16Upper.csv") %>% 
   select("Position", "Barcode", "StudySubject", "PlateName", "PoolID", "Set")
 
 #Merge the two files, the plate sample list and qPCR file
@@ -443,7 +443,7 @@ Plate_C15_C16Upper_Set_F_C_Merged <- Plate_C15_C16Upper.qPCR_merged %>%
     TRUE ~ 6 ))
 
 #Save the merged file with the volumes to pool
-write.csv(Plate_C15_C16Upper_Set_F_C_Merged, file = "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase3/Library-prep//2024-08-05-Plate_C15_C16Upper_Set_F_C_Merged.csv", na = "", row.names = TRUE)
+write.csv(Plate_C15_C16Upper_Set_F_C_Merged, file = "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase3/Library-prep//2024-08-05-Plate_C15_C16Upper_Set_F_C_Merged.csv", na = "", row.names = TRUE)
 
 # Mon Aug  5 15:06:54 2024 ------------------------------
 #Clear the environment and the console
@@ -456,9 +456,9 @@ library(writexl)
 library(readxl)
 
 #Read through the files to merge
-qPCR <- read.csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase3/Library-prep/Paragon Sample Preparation Master Spreadsheet-Phase-3 - Samples to be prepped_ 3rd round.csv") %>% 
+qPCR <- read.csv("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase3/Library-prep/Paragon Sample Preparation Master Spreadsheet-Phase-3 - Samples to be prepped_ 3rd round.csv") %>% 
   rename("StudySubject" = "Study.Subject") %>% select(-"site", -"Prepped.")
-Plate_C17_C16Lower <- read.csv("C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase3/Library-prep/Plate_C17_Lower_C16.csv") %>% 
+Plate_C17_C16Lower <- read.csv("C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase3/Library-prep/Plate_C17_Lower_C16.csv") %>% 
   select("Position", "Barcode", "StudySubject", "PlateName", "PoolID", "Set")
 
 #Merge the two files, the plate sample list and qPCR file
@@ -477,4 +477,4 @@ Plate_C17_C16Lower_Set_C_D_Merged <- Plate_C17_C16Lower.qPCR_merged %>%
     TRUE ~ 6 ))
 
 #Save the merged file with the volumes to pool
-write.csv(Plate_C17_C16Lower_Set_C_D_Merged, file = "C:/Users/USER/OneDrive/Desktop/Bienvenu Files/IMMRSE-U/Phase3/Library-prep/2024-08-05-Plate_C17_C16Lower_Set_C_D_Merged.csv", na = "", row.names = TRUE)
+write.csv(Plate_C17_C16Lower_Set_C_D_Merged, file = "C:/Users/USER/OneDrive/Desktop/Violet Files/IMMRSE-U/Phase3/Library-prep/2024-08-05-Plate_C17_C16Lower_Set_C_D_Merged.csv", na = "", row.names = TRUE)
